@@ -1,0 +1,43 @@
+body{
+    background-color: orange;
+}
+main{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: royalblue;
+}
+header{
+    height: 100px;
+    background-color: salmon;
+}
+nav{
+    height: 100px;
+    background-color: springgreen;
+}
+section#content{
+    overflow: hidden;
+}
+section#content section{
+    background-color: teal;
+    width: 700px;
+    float: left;
+}
+section#content section section{
+    height: 150px;
+    background-color: turquoise;
+}
+section#content section article{
+    height: 150px;
+    background-color: yellow;
+}
+aside{
+    width: 300px;
+    height: 300px;
+    float: right;
+    background-color: red;
+}
+footer{
+    height: 150px;
+    background-color: slategrey;
+}
